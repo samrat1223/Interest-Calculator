@@ -232,7 +232,7 @@ class _SIFormState extends State<SIForm> {
 
   void _reset() {
     principalController.text = '';
-    roiController.text = ' ';
+    roiController.text = '';
     termController.text = '';
     displayResult = '';
     _currentItemSelected = _currencies[0];
